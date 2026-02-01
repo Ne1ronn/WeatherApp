@@ -1,10 +1,3 @@
-//
-//  WeatherAppApp.swift
-//  WeatherApp
-//
-//  Created by Yesset on 01.02.2026.
-//
-
 import SwiftUI
 import SwiftData
 
@@ -25,7 +18,7 @@ struct WeatherAppApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WeatherView()
         }
         .modelContainer(sharedModelContainer)
     }
